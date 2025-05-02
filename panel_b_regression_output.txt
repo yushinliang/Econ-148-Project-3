@@ -1,0 +1,318 @@
+
+===== Panel B Regression for: Bad Activities =====
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    bad   R-squared:                       0.215
+Model:                            OLS   Adj. R-squared:                  0.156
+Method:                 Least Squares   F-statistic:                     3.645
+Date:                Thu, 01 May 2025   Prob (F-statistic):           6.28e-08
+Time:                        20:15:42   Log-Likelihood:                -138.93
+No. Observations:                 345   AIC:                             327.9
+Df Residuals:                     320   BIC:                             424.0
+Df Model:                          24                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const          -0.1083      0.180     -0.600      0.549      -0.463       0.247
+lpopd           0.0125      0.016      0.795      0.427      -0.018       0.044
+temp_avg        0.0276      0.016      1.740      0.083      -0.004       0.059
+temp2          -0.0005      0.000     -1.076      0.283      -0.001       0.000
+rainfall       -0.0518      0.056     -0.917      0.360      -0.163       0.059
+rain2           0.0178      0.010      1.777      0.077      -0.002       0.038
+alti           -0.0107      0.085     -0.126      0.900      -0.178       0.157
+alti2           0.0540      0.025      2.159      0.032       0.005       0.103
+landlocked     -0.1149      0.052     -2.199      0.029      -0.218      -0.012
+Bolivia        -0.2020      0.172     -1.174      0.241      -0.541       0.137
+Brazil          0.2687      0.130      2.075      0.039       0.014       0.524
+Canada          0.0825      0.184      0.447      0.655      -0.280       0.445
+Chile           0.0978      0.140      0.700      0.484      -0.177       0.373
+Colombia       -0.0587      0.137     -0.429      0.668      -0.328       0.210
+Ecuador         0.0321      0.136      0.235      0.814      -0.236       0.301
+El Salvador    -0.2283      0.170     -1.345      0.180      -0.562       0.106
+Guatemala      -0.2807      0.186     -1.513      0.131      -0.646       0.084
+Honduras        0.1899      0.143      1.324      0.186      -0.092       0.472
+Mexico         -0.0157      0.132     -0.119      0.905      -0.275       0.243
+Panama         -0.2867      0.182     -1.575      0.116      -0.645       0.071
+Paraguay       -0.0482      0.128     -0.376      0.707      -0.300       0.204
+Peru            0.0125      0.138      0.091      0.928      -0.259       0.284
+US              0.1030      0.099      1.044      0.297      -0.091       0.297
+Uruguay        -0.0799      0.123     -0.650      0.516      -0.322       0.162
+Venezuela       0.0134      0.144      0.093      0.926      -0.269       0.296
+==============================================================================
+Omnibus:                       41.167   Durbin-Watson:                   1.930
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               53.791
+Skew:                           0.967   Prob(JB):                     2.09e-12
+Kurtosis:                       3.055   Cond. No.                     9.80e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 9.8e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+===== Panel B Regression for: Mining =====
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 mining   R-squared:                       0.261
+Model:                            OLS   Adj. R-squared:                  0.206
+Method:                 Least Squares   F-statistic:                     4.718
+Date:                Thu, 01 May 2025   Prob (F-statistic):           2.80e-11
+Time:                        20:15:42   Log-Likelihood:                -51.615
+No. Observations:                 345   AIC:                             153.2
+Df Residuals:                     320   BIC:                             249.3
+Df Model:                          24                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const           0.0248      0.140      0.177      0.860      -0.251       0.300
+lpopd          -0.0176      0.012     -1.441      0.150      -0.042       0.006
+temp_avg        0.0091      0.012      0.743      0.458      -0.015       0.033
+temp2          -0.0004      0.000     -1.092      0.275      -0.001       0.000
+rainfall       -0.1191      0.044     -2.716      0.007      -0.205      -0.033
+rain2           0.0277      0.008      3.567      0.000       0.012       0.043
+alti           -0.0776      0.066     -1.175      0.241      -0.208       0.052
+alti2           0.0646      0.019      3.329      0.001       0.026       0.103
+landlocked     -0.0228      0.041     -0.561      0.575      -0.103       0.057
+Bolivia        -0.0275      0.134     -0.206      0.837      -0.290       0.235
+Brazil          0.2691      0.101      2.676      0.008       0.071       0.467
+Canada          0.0363      0.143      0.254      0.800      -0.245       0.318
+Chile           0.2343      0.108      2.159      0.032       0.021       0.448
+Colombia        0.2108      0.106      1.986      0.048       0.002       0.420
+Ecuador         0.2150      0.106      2.029      0.043       0.007       0.424
+El Salvador     0.1914      0.132      1.453      0.147      -0.068       0.451
+Guatemala       0.1304      0.144      0.906      0.366      -0.153       0.414
+Honduras        0.5297      0.111      4.756      0.000       0.311       0.749
+Mexico          0.2494      0.102      2.441      0.015       0.048       0.450
+Panama          0.0661      0.141      0.468      0.640      -0.212       0.344
+Paraguay        0.1621      0.099      1.629      0.104      -0.034       0.358
+Peru            0.1171      0.107      1.095      0.274      -0.093       0.328
+US             -0.0009      0.077     -0.012      0.991      -0.152       0.150
+Uruguay        -0.0241      0.095     -0.253      0.801      -0.212       0.164
+Venezuela       0.2297      0.111      2.061      0.040       0.010       0.449
+==============================================================================
+Omnibus:                      113.757   Durbin-Watson:                   1.993
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              270.798
+Skew:                           1.642   Prob(JB):                     1.57e-59
+Kurtosis:                       5.838   Cond. No.                     9.80e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 9.8e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+===== Panel B Regression for: Plantations =====
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            plantations   R-squared:                       0.196
+Model:                            OLS   Adj. R-squared:                  0.135
+Method:                 Least Squares   F-statistic:                     3.241
+Date:                Thu, 01 May 2025   Prob (F-statistic):           1.10e-06
+Time:                        20:15:42   Log-Likelihood:                -20.111
+No. Observations:                 345   AIC:                             90.22
+Df Residuals:                     320   BIC:                             186.3
+Df Model:                          24                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const          -0.1331      0.128     -1.041      0.299      -0.385       0.119
+lpopd           0.0302      0.011      2.701      0.007       0.008       0.052
+temp_avg        0.0184      0.011      1.642      0.102      -0.004       0.041
+temp2          -0.0001      0.000     -0.321      0.748      -0.001       0.001
+rainfall        0.0673      0.040      1.683      0.093      -0.011       0.146
+rain2          -0.0099      0.007     -1.401      0.162      -0.024       0.004
+alti            0.0669      0.060      1.110      0.268      -0.052       0.186
+alti2          -0.0106      0.018     -0.601      0.548      -0.046       0.024
+landlocked     -0.0921      0.037     -2.488      0.013      -0.165      -0.019
+Bolivia        -0.1745      0.122     -1.431      0.153      -0.414       0.065
+Brazil         -0.0004      0.092     -0.004      0.997      -0.181       0.180
+Canada          0.0462      0.131      0.354      0.724      -0.211       0.303
+Chile          -0.1364      0.099     -1.378      0.169      -0.331       0.058
+Colombia       -0.2694      0.097     -2.781      0.006      -0.460      -0.079
+Ecuador        -0.1830      0.097     -1.892      0.059      -0.373       0.007
+El Salvador    -0.4198      0.120     -3.490      0.001      -0.656      -0.183
+Guatemala      -0.4111      0.131     -3.127      0.002      -0.670      -0.152
+Honduras       -0.3398      0.102     -3.342      0.001      -0.540      -0.140
+Mexico         -0.2651      0.093     -2.843      0.005      -0.449      -0.082
+Panama         -0.3528      0.129     -2.735      0.007      -0.607      -0.099
+Paraguay       -0.2103      0.091     -2.316      0.021      -0.389      -0.032
+Peru           -0.1046      0.098     -1.072      0.285      -0.297       0.087
+US              0.1039      0.070      1.486      0.138      -0.034       0.241
+Uruguay        -0.0558      0.087     -0.641      0.522      -0.227       0.115
+Venezuela      -0.2163      0.102     -2.126      0.034      -0.416      -0.016
+==============================================================================
+Omnibus:                      155.755   Durbin-Watson:                   2.086
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              522.331
+Skew:                           2.100   Prob(JB):                    3.78e-114
+Kurtosis:                       7.324   Cond. No.                     9.80e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 9.8e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+===== Panel B Regression for: Good Activities =====
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   good   R-squared:                       0.324
+Model:                            OLS   Adj. R-squared:                  0.273
+Method:                 Least Squares   F-statistic:                     6.382
+Date:                Thu, 01 May 2025   Prob (F-statistic):           2.07e-16
+Time:                        20:15:42   Log-Likelihood:                -141.74
+No. Observations:                 345   AIC:                             333.5
+Df Residuals:                     320   BIC:                             429.6
+Df Model:                          24                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const           0.3998      0.182      2.198      0.029       0.042       0.758
+lpopd          -0.0266      0.016     -1.671      0.096      -0.058       0.005
+temp_avg        0.0151      0.016      0.944      0.346      -0.016       0.047
+temp2          -0.0004      0.000     -0.782      0.435      -0.001       0.001
+rainfall        0.1242      0.057      2.181      0.030       0.012       0.236
+rain2          -0.0151      0.010     -1.490      0.137      -0.035       0.005
+alti           -0.1052      0.086     -1.226      0.221      -0.274       0.064
+alti2           0.0069      0.025      0.272      0.786      -0.043       0.056
+landlocked      0.0685      0.053      1.301      0.194      -0.035       0.172
+Bolivia         0.0631      0.174      0.364      0.716      -0.278       0.405
+Brazil         -0.4908      0.131     -3.759      0.000      -0.748      -0.234
+Canada         -0.1836      0.186     -0.988      0.324      -0.549       0.182
+Chile          -0.6377      0.141     -4.527      0.000      -0.915      -0.361
+Colombia       -0.4838      0.138     -3.510      0.001      -0.755      -0.213
+Ecuador        -0.4349      0.138     -3.161      0.002      -0.706      -0.164
+El Salvador    -0.6091      0.171     -3.559      0.000      -0.946      -0.272
+Guatemala      -0.5640      0.187     -3.015      0.003      -0.932      -0.196
+Honduras       -0.6515      0.145     -4.504      0.000      -0.936      -0.367
+Mexico         -0.4738      0.133     -3.572      0.000      -0.735      -0.213
+Panama         -0.2962      0.184     -1.614      0.107      -0.657       0.065
+Paraguay       -0.2592      0.129     -2.007      0.046      -0.513      -0.005
+Peru           -0.4183      0.139     -3.011      0.003      -0.692      -0.145
+US             -0.2734      0.099     -2.750      0.006      -0.469      -0.078
+Uruguay        -0.0694      0.124     -0.561      0.576      -0.313       0.174
+Venezuela      -0.3326      0.145     -2.298      0.022      -0.617      -0.048
+==============================================================================
+Omnibus:                        9.202   Durbin-Watson:                   1.968
+Prob(Omnibus):                  0.010   Jarque-Bera (JB):                8.628
+Skew:                           0.335   Prob(JB):                       0.0134
+Kurtosis:                       2.612   Cond. No.                     9.80e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 9.8e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+===== Panel B Regression for: Ugly Activities =====
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   ugly   R-squared:                       0.444
+Model:                            OLS   Adj. R-squared:                  0.402
+Method:                 Least Squares   F-statistic:                     10.64
+Date:                Thu, 01 May 2025   Prob (F-statistic):           1.60e-28
+Time:                        20:15:42   Log-Likelihood:                -131.04
+No. Observations:                 345   AIC:                             312.1
+Df Residuals:                     320   BIC:                             408.2
+Df Model:                          24                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const           0.3128      0.176      1.774      0.077      -0.034       0.660
+lpopd           0.0960      0.015      6.231      0.000       0.066       0.126
+temp_avg       -0.0014      0.015     -0.090      0.928      -0.032       0.029
+temp2       -4.995e-05      0.000     -0.111      0.912      -0.001       0.001
+rainfall       -0.0313      0.055     -0.567      0.571      -0.140       0.077
+rain2          -0.0063      0.010     -0.642      0.522      -0.026       0.013
+alti            0.0744      0.083      0.895      0.372      -0.089       0.238
+alti2          -0.0323      0.024     -1.321      0.187      -0.080       0.016
+landlocked     -0.0796      0.051     -1.559      0.120      -0.180       0.021
+Bolivia         0.1397      0.168      0.830      0.407      -0.191       0.471
+Brazil         -0.0374      0.127     -0.295      0.768      -0.286       0.212
+Canada         -0.2870      0.180     -1.593      0.112      -0.641       0.067
+Chile           0.3366      0.137      2.465      0.014       0.068       0.605
+Colombia        0.3100      0.134      2.320      0.021       0.047       0.573
+Ecuador         0.2281      0.133      1.710      0.088      -0.034       0.491
+El Salvador     0.5240      0.166      3.158      0.002       0.198       0.850
+Guatemala       0.5320      0.181      2.934      0.004       0.175       0.889
+Honduras        0.2832      0.140      2.020      0.044       0.007       0.559
+Mexico          0.2044      0.129      1.589      0.113      -0.049       0.457
+Panama          0.1680      0.178      0.944      0.346      -0.182       0.518
+Paraguay        0.1425      0.125      1.138      0.256      -0.104       0.389
+Peru            0.0975      0.135      0.724      0.470      -0.167       0.362
+US             -0.0079      0.096     -0.082      0.935      -0.198       0.182
+Uruguay         0.1978      0.120      1.648      0.100      -0.038       0.434
+Venezuela       0.0493      0.140      0.351      0.726      -0.227       0.325
+==============================================================================
+Omnibus:                        4.519   Durbin-Watson:                   1.842
+Prob(Omnibus):                  0.104   Jarque-Bera (JB):                3.173
+Skew:                           0.066   Prob(JB):                        0.205
+Kurtosis:                       2.549   Cond. No.                     9.80e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 9.8e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+===== Panel B Regression for: No Activities =====
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   none   R-squared:                       0.318
+Model:                            OLS   Adj. R-squared:                  0.267
+Method:                 Least Squares   F-statistic:                     6.216
+Date:                Thu, 01 May 2025   Prob (F-statistic):           6.63e-16
+Time:                        20:15:43   Log-Likelihood:                -91.071
+No. Observations:                 345   AIC:                             232.1
+Df Residuals:                     320   BIC:                             328.2
+Df Model:                          24                                         
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const           0.3957      0.157      2.519      0.012       0.087       0.705
+lpopd          -0.0820      0.014     -5.974      0.000      -0.109      -0.055
+temp_avg       -0.0413      0.014     -2.991      0.003      -0.068      -0.014
+temp2           0.0009      0.000      2.266      0.024       0.000       0.002
+rainfall       -0.0411      0.049     -0.836      0.404      -0.138       0.056
+rain2           0.0035      0.009      0.405      0.686      -0.014       0.021
+alti            0.0415      0.074      0.560      0.576      -0.104       0.187
+alti2          -0.0285      0.022     -1.312      0.191      -0.071       0.014
+landlocked      0.1260      0.045      2.770      0.006       0.036       0.215
+Bolivia        -0.0008      0.150     -0.005      0.996      -0.296       0.294
+Brazil          0.2595      0.113      2.302      0.022       0.038       0.481
+Canada          0.3881      0.160      2.419      0.016       0.072       0.704
+Chile           0.2033      0.122      1.671      0.096      -0.036       0.443
+Colombia        0.2324      0.119      1.953      0.052      -0.002       0.467
+Ecuador         0.1748      0.119      1.471      0.142      -0.059       0.409
+El Salvador     0.3134      0.148      2.121      0.035       0.023       0.604
+Guatemala       0.3126      0.161      1.936      0.054      -0.005       0.630
+Honduras        0.1784      0.125      1.428      0.154      -0.067       0.424
+Mexico          0.2852      0.115      2.490      0.013       0.060       0.511
+Panama          0.4149      0.158      2.619      0.009       0.103       0.727
+Paraguay        0.1649      0.112      1.479      0.140      -0.054       0.384
+Peru            0.3083      0.120      2.571      0.011       0.072       0.544
+US              0.1783      0.086      2.078      0.039       0.009       0.347
+Uruguay        -0.0485      0.107     -0.454      0.650      -0.259       0.162
+Venezuela       0.2700      0.125      2.160      0.031       0.024       0.516
+==============================================================================
+Omnibus:                       54.500   Durbin-Watson:                   1.840
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               77.188
+Skew:                           1.044   Prob(JB):                     1.73e-17
+Kurtosis:                       4.005   Cond. No.                     9.80e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 9.8e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+

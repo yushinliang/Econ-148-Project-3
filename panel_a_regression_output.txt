@@ -1,0 +1,222 @@
+
+===== Regression for: Bad Activities =====
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    bad   R-squared:                       0.124
+Model:                            OLS   Adj. R-squared:                  0.103
+Method:                 Least Squares   F-statistic:                     5.932
+Date:                Thu, 01 May 2025   Prob (F-statistic):           4.04e-07
+Time:                        20:15:39   Log-Likelihood:                -157.82
+No. Observations:                 345   AIC:                             333.6
+Df Residuals:                     336   BIC:                             368.2
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0304      0.102     -0.298      0.766      -0.231       0.170
+lpopd          0.0094      0.012      0.808      0.420      -0.013       0.032
+temp_avg       0.0227      0.012      1.907      0.057      -0.001       0.046
+temp2         -0.0005      0.000     -1.424      0.155      -0.001       0.000
+rainfall       0.0071      0.050      0.142      0.887      -0.092       0.106
+rain2          0.0106      0.010      1.114      0.266      -0.008       0.029
+alti          -0.0174      0.077     -0.225      0.822      -0.170       0.135
+alti2          0.0489      0.023      2.163      0.031       0.004       0.093
+landlocked    -0.1269      0.049     -2.602      0.010      -0.223      -0.031
+==============================================================================
+Omnibus:                       60.003   Durbin-Watson:                   1.775
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               89.247
+Skew:                           1.243   Prob(JB):                     4.17e-20
+Kurtosis:                       3.182   Cond. No.                     2.36e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.36e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+===== Regression for: Mining =====
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 mining   R-squared:                       0.162
+Model:                            OLS   Adj. R-squared:                  0.142
+Method:                 Least Squares   F-statistic:                     8.109
+Date:                Thu, 01 May 2025   Prob (F-statistic):           5.02e-10
+Time:                        20:15:39   Log-Likelihood:                -73.426
+No. Observations:                 345   AIC:                             164.9
+Df Residuals:                     336   BIC:                             199.4
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0344      0.080      0.431      0.667      -0.123       0.191
+lpopd          0.0050      0.009      0.554      0.580      -0.013       0.023
+temp_avg       0.0082      0.009      0.879      0.380      -0.010       0.026
+temp2         -0.0002      0.000     -0.676      0.500      -0.001       0.000
+rainfall      -0.0627      0.039     -1.592      0.112      -0.140       0.015
+rain2          0.0218      0.007      2.924      0.004       0.007       0.036
+alti          -0.0167      0.061     -0.276      0.783      -0.136       0.103
+alti2          0.0469      0.018      2.649      0.008       0.012       0.082
+landlocked    -0.0276      0.038     -0.723      0.470      -0.103       0.048
+==============================================================================
+Omnibus:                      154.225   Durbin-Watson:                   1.854
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              480.980
+Skew:                           2.127   Prob(JB):                    3.60e-105
+Kurtosis:                       6.919   Cond. No.                     2.36e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.36e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+===== Regression for: Plantations =====
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            plantations   R-squared:                       0.055
+Model:                            OLS   Adj. R-squared:                  0.033
+Method:                 Least Squares   F-statistic:                     2.466
+Date:                Thu, 01 May 2025   Prob (F-statistic):             0.0131
+Time:                        20:15:39   Log-Likelihood:                -47.802
+No. Observations:                 345   AIC:                             113.6
+Df Residuals:                     336   BIC:                             148.2
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         -0.0648      0.074     -0.874      0.383      -0.211       0.081
+lpopd          0.0043      0.008      0.515      0.607      -0.012       0.021
+temp_avg       0.0145      0.009      1.677      0.094      -0.003       0.031
+temp2         -0.0003      0.000     -1.231      0.219      -0.001       0.000
+rainfall       0.0698      0.037      1.910      0.057      -0.002       0.142
+rain2         -0.0112      0.007     -1.618      0.107      -0.025       0.002
+alti          -0.0007      0.056     -0.013      0.990      -0.111       0.110
+alti2          0.0020      0.016      0.123      0.902      -0.030       0.034
+landlocked    -0.0993      0.035     -2.801      0.005      -0.169      -0.030
+==============================================================================
+Omnibus:                      195.417   Durbin-Watson:                   1.844
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              828.847
+Skew:                           2.627   Prob(JB):                    1.04e-180
+Kurtosis:                       8.483   Cond. No.                     2.36e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.36e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+===== Regression for: Good Activities =====
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   good   R-squared:                       0.226
+Model:                            OLS   Adj. R-squared:                  0.207
+Method:                 Least Squares   F-statistic:                     12.24
+Date:                Thu, 01 May 2025   Prob (F-statistic):           2.17e-15
+Time:                        20:15:39   Log-Likelihood:                -165.08
+No. Observations:                 345   AIC:                             348.2
+Df Residuals:                     336   BIC:                             382.8
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.1558      0.104      1.496      0.136      -0.049       0.361
+lpopd         -0.0682      0.012     -5.752      0.000      -0.092      -0.045
+temp_avg       0.0159      0.012      1.311      0.191      -0.008       0.040
+temp2         -0.0005      0.000     -1.279      0.202      -0.001       0.000
+rainfall       0.0459      0.051      0.893      0.372      -0.055       0.147
+rain2         -0.0083      0.010     -0.856      0.393      -0.027       0.011
+alti          -0.2077      0.079     -2.627      0.009      -0.363      -0.052
+alti2          0.0395      0.023      1.710      0.088      -0.006       0.085
+landlocked     0.1251      0.050      2.511      0.012       0.027       0.223
+==============================================================================
+Omnibus:                       31.040   Durbin-Watson:                   1.782
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               20.918
+Skew:                           0.481   Prob(JB):                     2.87e-05
+Kurtosis:                       2.272   Cond. No.                     2.36e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.36e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+===== Regression for: Ugly Activities =====
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   ugly   R-squared:                       0.357
+Model:                            OLS   Adj. R-squared:                  0.342
+Method:                 Least Squares   F-statistic:                     23.33
+Date:                Thu, 01 May 2025   Prob (F-statistic):           2.23e-28
+Time:                        20:15:39   Log-Likelihood:                -156.04
+No. Observations:                 345   AIC:                             330.1
+Df Residuals:                     336   BIC:                             364.7
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.1118      0.101      1.103      0.271      -0.088       0.311
+lpopd          0.1122      0.012      9.710      0.000       0.089       0.135
+temp_avg       0.0236      0.012      1.999      0.046       0.000       0.047
+temp2         -0.0005      0.000     -1.545      0.123      -0.001       0.000
+rainfall       0.0050      0.050      0.100      0.920      -0.093       0.103
+rain2         -0.0084      0.009     -0.887      0.376      -0.027       0.010
+alti           0.1417      0.077      1.839      0.067      -0.010       0.293
+alti2         -0.0452      0.022     -2.011      0.045      -0.089      -0.001
+landlocked    -0.0930      0.049     -1.916      0.056      -0.188       0.002
+==============================================================================
+Omnibus:                       71.834   Durbin-Watson:                   1.639
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               14.935
+Skew:                           0.001   Prob(JB):                     0.000571
+Kurtosis:                       1.981   Cond. No.                     2.36e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.36e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+
+===== Regression for: No Activities =====
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   none   R-squared:                       0.277
+Model:                            OLS   Adj. R-squared:                  0.259
+Method:                 Least Squares   F-statistic:                     16.06
+Date:                Thu, 01 May 2025   Prob (F-statistic):           4.35e-20
+Time:                        20:15:39   Log-Likelihood:                -101.24
+No. Observations:                 345   AIC:                             220.5
+Df Residuals:                     336   BIC:                             255.1
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.7628      0.087      8.817      0.000       0.593       0.933
+lpopd         -0.0533      0.010     -5.412      0.000      -0.073      -0.034
+temp_avg      -0.0622      0.010     -6.168      0.000      -0.082      -0.042
+temp2          0.0015      0.000      5.027      0.000       0.001       0.002
+rainfall      -0.0580      0.043     -1.359      0.175      -0.142       0.026
+rain2          0.0061      0.008      0.758      0.449      -0.010       0.022
+alti           0.0835      0.066      1.270      0.205      -0.046       0.213
+alti2         -0.0431      0.019     -2.250      0.025      -0.081      -0.005
+landlocked     0.0948      0.041      2.290      0.023       0.013       0.176
+==============================================================================
+Omnibus:                       67.376   Durbin-Watson:                   1.768
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              102.958
+Skew:                           1.227   Prob(JB):                     4.39e-23
+Kurtosis:                       4.069   Cond. No.                     2.36e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.36e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
