@@ -5,8 +5,8 @@
 Dep. Variable:                    bad   R-squared:                       0.215
 Model:                            OLS   Adj. R-squared:                  0.156
 Method:                 Least Squares   F-statistic:                     3.645
-Date:                Thu, 01 May 2025   Prob (F-statistic):           6.28e-08
-Time:                        20:15:42   Log-Likelihood:                -138.93
+Date:                Fri, 02 May 2025   Prob (F-statistic):           6.28e-08
+Time:                        19:18:31   Log-Likelihood:                -138.93
 No. Observations:                 345   AIC:                             327.9
 Df Residuals:                     320   BIC:                             424.0
 Df Model:                          24                                         
@@ -58,8 +58,8 @@ strong multicollinearity or other numerical problems.
 Dep. Variable:                 mining   R-squared:                       0.261
 Model:                            OLS   Adj. R-squared:                  0.206
 Method:                 Least Squares   F-statistic:                     4.718
-Date:                Thu, 01 May 2025   Prob (F-statistic):           2.80e-11
-Time:                        20:15:42   Log-Likelihood:                -51.615
+Date:                Fri, 02 May 2025   Prob (F-statistic):           2.80e-11
+Time:                        19:18:31   Log-Likelihood:                -51.615
 No. Observations:                 345   AIC:                             153.2
 Df Residuals:                     320   BIC:                             249.3
 Df Model:                          24                                         
@@ -111,8 +111,8 @@ strong multicollinearity or other numerical problems.
 Dep. Variable:            plantations   R-squared:                       0.196
 Model:                            OLS   Adj. R-squared:                  0.135
 Method:                 Least Squares   F-statistic:                     3.241
-Date:                Thu, 01 May 2025   Prob (F-statistic):           1.10e-06
-Time:                        20:15:42   Log-Likelihood:                -20.111
+Date:                Fri, 02 May 2025   Prob (F-statistic):           1.10e-06
+Time:                        19:18:31   Log-Likelihood:                -20.111
 No. Observations:                 345   AIC:                             90.22
 Df Residuals:                     320   BIC:                             186.3
 Df Model:                          24                                         
@@ -164,8 +164,8 @@ strong multicollinearity or other numerical problems.
 Dep. Variable:                   good   R-squared:                       0.324
 Model:                            OLS   Adj. R-squared:                  0.273
 Method:                 Least Squares   F-statistic:                     6.382
-Date:                Thu, 01 May 2025   Prob (F-statistic):           2.07e-16
-Time:                        20:15:42   Log-Likelihood:                -141.74
+Date:                Fri, 02 May 2025   Prob (F-statistic):           2.07e-16
+Time:                        19:18:31   Log-Likelihood:                -141.74
 No. Observations:                 345   AIC:                             333.5
 Df Residuals:                     320   BIC:                             429.6
 Df Model:                          24                                         
@@ -217,8 +217,8 @@ strong multicollinearity or other numerical problems.
 Dep. Variable:                   ugly   R-squared:                       0.444
 Model:                            OLS   Adj. R-squared:                  0.402
 Method:                 Least Squares   F-statistic:                     10.64
-Date:                Thu, 01 May 2025   Prob (F-statistic):           1.60e-28
-Time:                        20:15:42   Log-Likelihood:                -131.04
+Date:                Fri, 02 May 2025   Prob (F-statistic):           1.60e-28
+Time:                        19:18:31   Log-Likelihood:                -131.04
 No. Observations:                 345   AIC:                             312.1
 Df Residuals:                     320   BIC:                             408.2
 Df Model:                          24                                         
@@ -270,8 +270,8 @@ strong multicollinearity or other numerical problems.
 Dep. Variable:                   none   R-squared:                       0.318
 Model:                            OLS   Adj. R-squared:                  0.267
 Method:                 Least Squares   F-statistic:                     6.216
-Date:                Thu, 01 May 2025   Prob (F-statistic):           6.63e-16
-Time:                        20:15:43   Log-Likelihood:                -91.071
+Date:                Fri, 02 May 2025   Prob (F-statistic):           6.63e-16
+Time:                        19:18:31   Log-Likelihood:                -91.071
 No. Observations:                 345   AIC:                             232.1
 Df Residuals:                     320   BIC:                             328.2
 Df Model:                          24                                         

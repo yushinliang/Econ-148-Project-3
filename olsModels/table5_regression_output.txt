@@ -6,7 +6,7 @@ Dep. Variable:                  lyppp   R-squared:                       0.806
 Model:                            OLS   Adj. R-squared:                  0.794
 Method:                 Least Squares   F-statistic:                     387.4
 Date:                Fri, 02 May 2025   Prob (F-statistic):          1.67e-157
-Time:                        16:55:27   Log-Likelihood:                -195.28
+Time:                        19:18:31   Log-Likelihood:                -195.28
 No. Observations:                 345   AIC:                             430.6
 Df Residuals:                     325   BIC:                             507.4
 Df Model:                          19                                         
@@ -52,7 +52,7 @@ Dep. Variable:                  lyppp   R-squared:                       0.803
 Model:                            OLS   Adj. R-squared:                  0.793
 Method:                 Least Squares   F-statistic:                     211.3
 Date:                Fri, 02 May 2025   Prob (F-statistic):          6.91e-126
-Time:                        16:55:27   Log-Likelihood:                -197.81
+Time:                        19:18:31   Log-Likelihood:                -197.81
 No. Observations:                 345   AIC:                             431.6
 Df Residuals:                     327   BIC:                             500.8
 Df Model:                          17                                         
@@ -96,7 +96,7 @@ Dep. Variable:                  lyppp   R-squared:                       0.811
 Model:                            OLS   Adj. R-squared:                  0.799
 Method:                 Least Squares   F-statistic:                     379.5
 Date:                Fri, 02 May 2025   Prob (F-statistic):          2.25e-158
-Time:                        16:55:27   Log-Likelihood:                -190.81
+Time:                        19:18:31   Log-Likelihood:                -190.81
 No. Observations:                 345   AIC:                             423.6
 Df Residuals:                     324   BIC:                             504.3
 Df Model:                          20                                         
@@ -143,7 +143,7 @@ Dep. Variable:                  lyppp   R-squared:                       0.819
 Model:                            OLS   Adj. R-squared:                  0.805
 Method:                 Least Squares   F-statistic:                     248.2
 Date:                Fri, 02 May 2025   Prob (F-statistic):          4.21e-145
-Time:                        16:55:27   Log-Likelihood:                -183.31
+Time:                        19:18:31   Log-Likelihood:                -183.31
 No. Observations:                 345   AIC:                             416.6
 Df Residuals:                     320   BIC:                             512.7
 Df Model:                          24                                         
@@ -196,7 +196,7 @@ Dep. Variable:                  lyppp   R-squared:                       0.829
 Model:                            OLS   Adj. R-squared:                  0.815
 Method:                 Least Squares   F-statistic:                     227.2
 Date:                Fri, 02 May 2025   Prob (F-statistic):          5.58e-145
-Time:                        16:55:27   Log-Likelihood:                -172.94
+Time:                        19:18:31   Log-Likelihood:                -172.94
 No. Observations:                 345   AIC:                             401.9
 Df Residuals:                     317   BIC:                             509.5
 Df Model:                          27                                         
@@ -252,7 +252,7 @@ Dep. Variable:                  lyppp   R-squared:                       0.830
 Model:                            OLS   Adj. R-squared:                  0.815
 Method:                 Least Squares   F-statistic:                     209.3
 Date:                Fri, 02 May 2025   Prob (F-statistic):          2.05e-142
-Time:                        16:55:27   Log-Likelihood:                -172.63
+Time:                        19:18:31   Log-Likelihood:                -172.63
 No. Observations:                 345   AIC:                             403.3
 Df Residuals:                     316   BIC:                             514.7
 Df Model:                          28                                         

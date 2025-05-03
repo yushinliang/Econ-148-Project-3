@@ -6,7 +6,7 @@ Dep. Variable:                  lyppp   R-squared:                       0.829
 Model:                            OLS   Adj. R-squared:                  0.815
 Method:                 Least Squares   F-statistic:                     227.2
 Date:                Fri, 02 May 2025   Prob (F-statistic):          5.58e-145
-Time:                        18:43:16   Log-Likelihood:                -172.94
+Time:                        19:18:31   Log-Likelihood:                -172.94
 No. Observations:                 345   AIC:                             401.9
 Df Residuals:                     317   BIC:                             509.5
 Df Model:                          27                                         
@@ -62,7 +62,7 @@ Dep. Variable:                  lgini   R-squared:                       0.738
 Model:                            OLS   Adj. R-squared:                  0.713
 Method:                 Least Squares   F-statistic:                     79.53
 Date:                Fri, 02 May 2025   Prob (F-statistic):           1.56e-83
-Time:                        18:43:16   Log-Likelihood:                 298.01
+Time:                        19:18:31   Log-Likelihood:                 298.01
 No. Observations:                 268   AIC:                            -548.0
 Df Residuals:                     244   BIC:                            -461.8
 Df Model:                          23                                         
@@ -114,7 +114,7 @@ Dep. Variable:             lschoolspk   R-squared:                       0.713
 Model:                            OLS   Adj. R-squared:                  0.688
 Method:                 Least Squares   F-statistic:                     66.80
 Date:                Fri, 02 May 2025   Prob (F-statistic):           2.40e-85
-Time:                        18:43:16   Log-Likelihood:                -108.00
+Time:                        19:18:31   Log-Likelihood:                -108.00
 No. Observations:                 317   AIC:                             268.0
 Df Residuals:                     291   BIC:                             365.7
 Df Model:                          25                                         
@@ -168,7 +168,7 @@ Dep. Variable:                   llit   R-squared:                       0.646
 Model:                            OLS   Adj. R-squared:                  0.609
 Method:                 Least Squares   F-statistic:                     291.1
 Date:                Fri, 02 May 2025   Prob (F-statistic):          1.10e-120
-Time:                        18:43:16   Log-Likelihood:                 307.18
+Time:                        19:18:31   Log-Likelihood:                 307.18
 No. Observations:                 270   AIC:                            -562.4
 Df Residuals:                     244   BIC:                            -468.8
 Df Model:                          25                                         
@@ -222,7 +222,7 @@ Dep. Variable:                 lseats   R-squared:                       0.861
 Model:                            OLS   Adj. R-squared:                  0.849
 Method:                 Least Squares   F-statistic:                     146.4
 Date:                Fri, 02 May 2025   Prob (F-statistic):          8.79e-117
-Time:                        18:43:16   Log-Likelihood:                -190.94
+Time:                        19:18:31   Log-Likelihood:                -190.94
 No. Observations:                 318   AIC:                             435.9
 Df Residuals:                     291   BIC:                             537.5
 Df Model:                          26                                         
